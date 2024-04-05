@@ -17,7 +17,9 @@ export const Reset = createGlobalStyle`
   html {
     height: 100%;
     font-size: 18px;
-    font-family: Oxanium;
+    font-family: sans-serif;
+
+    cursor: none;
   }
 
   body {
@@ -66,4 +68,17 @@ export const App = styled.div`
 
   width: 100%;
   height: 100%;
+
+  background-color: #000;
+`;
+
+export const Score = styled.span`
+  position: fixed;
+  top: 16px;
+  right: 16px;
+
+  color: #fff;
+  font-size: 32px;
+
+  user-select: none;
 `;
